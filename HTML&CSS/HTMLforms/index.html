@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+   </head>
+   <body>
+      <h1>Hello, Forms!</h1>
+      <form action="#" method="post">
+         <fieldset>
+            <legend>Add user</legend>
+
+            <div>
+               <label for="firstName">First name</label>
+               <input type="text" name="first_name" id="firstName">
+            </div>
+
+            <div>
+               <label for="lastName">Last name</label>
+               <input type="text" name="last_name" id="lastName">
+            </div>
+
+            <div>
+               <label for="email">Email</label>
+               <input type="email" name="email_address" id="email">
+            </div>
+
+            <div>
+               <label for="role">Role</label>
+               <select name="user_role_name" id="role">
+                  <option value="admin">Admin</option>
+                  <option value="user">User</option>
+                  <option value="guest">Guest</option>
+               </select>
+            </div>
+
+            <div>
+               <label for="bio">Bio</label>
+               <textarea id="bio" name="bio"></textarea>
+             </div>
+         
+             <div>
+               <button type="submit">Add this person</button>
+             </div>
+
+         </fieldset>
+      </form>
+   </body>
+</html>
