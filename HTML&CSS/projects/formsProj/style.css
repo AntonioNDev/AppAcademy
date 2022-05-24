@@ -1,0 +1,89 @@
+.data {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.studentInfo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin: 15px;
+}
+
+.studentInfo > input {
+   width: 250px;
+   height: 30px;
+   margin: 10px;
+   border: 2px solid seagreen;
+   border-radius: 5px;
+   font-size: 17px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-left: 10px;
+}
+
+.studentInfo > label {
+   font-size: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.studentStat > label {
+   font-size: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#status {
+   font-size: 14px;
+   align-items: center;
+   border: 3px solid green;
+}
+
+.favLanguage {
+   font-size: 20px;
+   margin: 15px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.txtArea > textarea::placeholder {
+   color: green;
+   padding: 5px;
+   opacity: 0.8;
+}
+
+.currentDate {
+   margin: 15px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 18px;
+
+}
+
+.checkBoxes {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.checkBoxes > label {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 17px;
+   margin: 10px;
+}
+
+#button {
+   width: 100px;
+   height: 35px;
+   margin: 15px;
+   font-size: 18px;
+   border: 3px solid crimson;
+   background-color: transparent;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: all 300ms 0s ease;
+}
+
+#button:hover {
+   background-color: crimson;
+   color: white;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../formsProj/style.css">
+      <title>Student data</title>
+   </head>
+   <body>
+      <form action="" method="post" id="form">
+         <fieldset class="data">
+            <legend>Add user</legend>
+            <div class="studentInfo">
+               <label for="firstName">First name</label>
+               <input type="text" name="first_name" id="firstName">
+
+               <label for="lastName">Last name</label>
+               <input type="text" name="last_name" id="lastName">
+
+               <label for="email">Email address</label>
+               <input type="email" name="email_address" id="email">
+            </div>
+
+            <div class="studentStat">
+               <label for="status">Status: </label>
+               <select name="Status" id="status">
+                  <option value="Student">Student</option>
+                  <option value="Instructor">Instructor</option>
+                  <option value="Guest">Guest</option>
+               </select>
+            </div>
+
+            <div class="favLanguage">
+               <p>Choose your favorite programming language:</p>
+               
+               <div>
+                  <input type="radio" id="html" name="language" value="html">
+                  <label for="html">HTML</label>
+                </div>
+            
+                <div>
+                  <input type="radio" id="js" name="language" value="js">
+                  <label for="js">Java Script</label>
+                </div>
+            
+                <div>
+                  <input type="radio" id="Python" name="language" value="Python">
+                  <label for="Python">Python</label>
+                </div>
+            </div>
+            
+            <div class="txtArea">
+               <textarea name="comments" id="comments" cols="50" rows="10" placeholder="Comments: "></textarea>
+            </div>
+            
+            <div class="currentDate">
+               <label for="date">Current date: </label>
+               <input type="date" name="date" id="date">
+            </div>
+
+            <div class="checkBoxes">
+               <label for="newsletter">Sign up for newsletter</label>
+               <input type="checkbox" name="newsletter" id="newsletter"> 
+               
+               <label for="TOC">Agree to terms and conditions</label>
+               <input type="checkbox" id="TOC">
+            </div>
+
+            <button type="submit" id="button">Submit</button>
+
+
+         </fieldset>
+      </form>
+   </body>
+</html>
